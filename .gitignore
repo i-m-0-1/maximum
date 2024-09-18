@@ -1,6 +1,6 @@
 /target
 /Cargo.lock
-/main
+/src/main
 
 # Added by cargo
 #
