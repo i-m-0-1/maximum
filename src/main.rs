@@ -12,9 +12,9 @@ fn main() {
     let input = &args[1];
     let whoami = "whoami";
     let superuser = "im01";
-    if input.len() == whoami.len() {
-        println!("You are {}", superuser);
+    if input == whoami {
+        println!("{}", superuser);
     } else {
-        println!("No command {} detected in this OS", input); 
+        println!("command not found: '{}'", input); 
     }
 }
