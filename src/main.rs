@@ -1,4 +1,4 @@
-// TODO: make it like terminal, always waiting for commands
+// TODO:mkdir, ls, create file, etc. 
 
 use std::fs::File;
 use std::path::Path;
